@@ -1,27 +1,38 @@
-# ShoppingList
+# Shopping List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+## Descrição
 
-## Development server
+Este é um aplicativo de lista de compras desenvolvido com Angular e Material Design. Ele permite adicionar, editar, marcar como comprados e excluir itens de uma lista de compras, organizados em duas categorias: itens não comprados e itens comprados. A interface foi projetada seguindo princípios de UI/UX para garantir uma experiência agradável e intuitiva.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- **Adicionar Itens**: Permite a inserção de novos itens na lista de compras.
+- **Editar Itens**: O usuário pode editar o nome dos itens existentes.
+- **Marcar como Comprado**: O usuário pode marcar os itens como comprados, separando-os visualmente na interface.
+- **Excluir Itens**: O usuário pode remover itens da lista.
+- **Agrupamento**: Itens são agrupados em "Comprados" e "Não Comprados".
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+- **Angular**: Framework principal utilizado para o desenvolvimento do projeto.
+- **Angular Material**: Usado para criar componentes visuais com design moderno e responsivo.
+- **TypeScript**: Linguagem de programação utilizada.
+- **CSS**: Utilizado para estilização da interface.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como Executar o Projeto
 
-## Running unit tests
+### Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Node.js** (>=12.x)
+- **Angular CLI** (>=12.x)
 
-## Running end-to-end tests
+### Instalação e Execução
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Tauan-dev/shopping-list.git
+   ```
+2. Rota para a lista de compras
+   ```bash
+   http://localhost:4200/shopping-list
+   ```
